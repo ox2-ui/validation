@@ -1,7 +1,7 @@
 {
   "name": "@ox2/validation",
-  "version": "0.0.1",
-  "description": "Brief, one-line summary of the package.",
+  "version": "1.0.0",
+  "description": "Validation functions",
   "repository": {
     "type": "git",
     "url": "https://github.com/ox2/validation"
