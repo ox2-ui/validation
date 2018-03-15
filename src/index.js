@@ -2,6 +2,10 @@
 const maxLength = max => value =>
   value && value.length > max ? `Must be ${max} characters or less` : undefined;
 
+/* Helpers */
+export const composeValidators = (...validators) => value =>
+  validators.reduce((error, validator) => error || validator(value), undefined);
+
 /* Validation Helpers */
 export const required = value => value ? undefined : 'Required';
 
