@@ -1,3 +1,5 @@
+### Package is no longer maintaned.
+
 # @ox2/validation
 ![NPM version](https://img.shields.io/badge/npm-private-orange.svg?style=flat)
 <!-- ![NPM version](https://img.shields.io/npm/v/@ox2/validation.svg?style=flat) -->
